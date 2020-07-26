@@ -1,0 +1,110 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 non-TLS
+#  -string -flagsOSRD
+preplace port HDMI_CLK_P -pg 1 -y 970 -defaultsOSRD
+preplace port iic_rtl -pg 1 -y 830 -defaultsOSRD
+preplace port HDMI_D2_N -pg 1 -y 1030 -defaultsOSRD
+preplace port HDMI_D2_P -pg 1 -y 1010 -defaultsOSRD
+preplace port HDMI_D1_N -pg 1 -y 1070 -defaultsOSRD
+preplace port HDMI_D0_N -pg 1 -y 1110 -defaultsOSRD
+preplace port cmos_xclk_o -pg 1 -y 1170 -defaultsOSRD
+preplace port HDMI_D1_P -pg 1 -y 1050 -defaultsOSRD
+preplace port HDMI_D0_P -pg 1 -y 1090 -defaultsOSRD
+preplace port cmos_vsync_i -pg 1 -y 760 -defaultsOSRD
+preplace port cmos_pclk_i -pg 1 -y 980 -defaultsOSRD
+preplace port sys_clock -pg 1 -y 1090 -defaultsOSRD
+preplace port uart -pg 1 -y 700 -defaultsOSRD
+preplace port DDR3 -pg 1 -y 380 -defaultsOSRD
+preplace port cmos_href_i -pg 1 -y 960 -defaultsOSRD
+preplace port HDMI_CLK_N -pg 1 -y 990 -defaultsOSRD
+preplace port reset -pg 1 -y 1000 -defaultsOSRD
+preplace portBus cmos_data_i -pg 1 -y 940 -defaultsOSRD
+preplace inst AXI4_Stream_to_Video_0 -pg 1 -lvl 7 -y 1000 -defaultsOSRD
+preplace inst v_tc_0 -pg 1 -lvl 6 -y 980 -defaultsOSRD
+preplace inst rst_mig_7series_0_100M -pg 1 -lvl 6 -y 130 -defaultsOSRD
+preplace inst axi_iic_0 -pg 1 -lvl 8 -y 850 -defaultsOSRD
+preplace inst axi_vdma_0 -pg 1 -lvl 6 -y 560 -defaultsOSRD
+preplace inst mig_7series_0 -pg 1 -lvl 8 -y 420 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 7 -y 390 -defaultsOSRD
+preplace inst OV_Sensor_ML_0 -pg 1 -lvl 4 -y 910 -defaultsOSRD
+preplace inst microblaze_0_axi_periph -pg 1 -lvl 4 -y 630 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 4 -y 1080 -defaultsOSRD
+preplace inst mdm_1 -pg 1 -lvl 5 -y 310 -defaultsOSRD
+preplace inst microblaze_0_axi_intc -pg 1 -lvl 5 -y 580 -defaultsOSRD
+preplace inst v_vid_in_axi4s_0 -pg 1 -lvl 5 -y 900 -defaultsOSRD
+preplace inst HDMI_FPGA_ML_0 -pg 1 -lvl 8 -y 1040 -defaultsOSRD
+preplace inst axi_uartlite_0 -pg 1 -lvl 8 -y 710 -defaultsOSRD
+preplace inst microblaze_0 -pg 1 -lvl 6 -y 310 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 3 -y 860 -defaultsOSRD
+preplace inst rst_clk_wiz_1_100M -pg 1 -lvl 2 -y 480 -defaultsOSRD
+preplace inst clk_wiz_1 -pg 1 -lvl 1 -y 1080 -defaultsOSRD
+preplace inst microblaze_0_local_memory -pg 1 -lvl 7 -y 610 -defaultsOSRD
+preplace netloc mig_7series_0_mmcm_locked 1 5 4 1540 10 NJ 10 NJ 10 2750
+preplace netloc v_vid_in_axi4s_0_video_out 1 5 1 1570
+preplace netloc OV_Sensor_ML_0_vs_o 1 4 1 1180
+preplace netloc mig_7series_0_DDR3 1 8 1 NJ
+preplace netloc axi_iic_0_iic2intc_irpt 1 4 5 1220 710 NJ 710 NJ 710 2460J 630 2740
+preplace netloc axi_vdma_0_M_AXI_MM2S 1 6 1 2080
+preplace netloc HDMI_FPGA_ML_0_HDMI_D2_N 1 8 1 NJ
+preplace netloc HDMI_FPGA_ML_0_HDMI_CLK_N 1 8 1 NJ
+preplace netloc cmos_vsync_i_0_1 1 0 4 NJ 760 NJ 760 NJ 760 790J
+preplace netloc microblaze_0_Clk 1 1 7 200 770 570 770 760 450 1120 470 1580 420 2130 720 2480
+preplace netloc AXI4_Stream_to_Video_0_Vid_io_out 1 7 1 N
+preplace netloc axi_vdma_0_M_AXIS_MM2S 1 6 1 2080
+preplace netloc microblaze_0_axi_periph_M03_AXI 1 4 4 1100J 700 NJ 700 NJ 700 2470
+preplace netloc axi_smc_M00_AXI 1 7 1 N
+preplace netloc microblaze_0_intc_axi 1 4 1 1110
+preplace netloc microblaze_0_interrupt 1 5 1 1560
+preplace netloc util_vector_logic_0_Res 1 4 3 1210 1110 1580J 1090 2150J
+preplace netloc OV_Sensor_ML_0_hs_o 1 4 1 1140
+preplace netloc microblaze_0_M_AXI_DC 1 6 1 N
+preplace netloc microblaze_0_ilmb_1 1 6 1 2110
+preplace netloc HDMI_FPGA_ML_0_HDMI_D2_P 1 8 1 NJ
+preplace netloc HDMI_FPGA_ML_0_HDMI_D1_N 1 8 1 NJ
+preplace netloc HDMI_FPGA_ML_0_HDMI_CLK_P 1 8 1 NJ
+preplace netloc sys_clock_1 1 0 1 NJ
+preplace netloc microblaze_0_axi_dp 1 3 4 800 410 NJ 410 NJ 410 2070
+preplace netloc HDMI_FPGA_ML_0_HDMI_D0_N 1 8 1 NJ
+preplace netloc OV_Sensor_ML_0_cmos_xclk_o 1 4 5 1150J 1130 NJ 1130 NJ 1130 2430J 1170 NJ
+preplace netloc cmos_pclk_i_0_1 1 0 5 NJ 980 NJ 980 NJ 980 800 1020 1200J
+preplace netloc mig_7series_0_ui_clk 1 5 4 1580 30 2150 520 NJ 520 2740
+preplace netloc HDMI_FPGA_ML_0_HDMI_D1_P 1 8 1 NJ
+preplace netloc rst_mig_7series_0_100M_peripheral_aresetn 1 6 2 2140 510 2430J
+preplace netloc rst_clk_wiz_1_100M_interconnect_aresetn 1 2 2 NJ 500 790
+preplace netloc rst_clk_wiz_1_100M_bus_struct_reset 1 2 5 560J 430 NJ 430 NJ 430 NJ 430 2100
+preplace netloc microblaze_0_M_AXI_IC 1 6 1 N
+preplace netloc microblaze_0_axi_periph_M01_AXI 1 4 2 1100 460 1570J
+preplace netloc HDMI_FPGA_ML_0_HDMI_D0_P 1 8 1 NJ
+preplace netloc rst_clk_wiz_1_100M_mb_reset 1 2 4 NJ 440 NJ 440 NJ 440 1570
+preplace netloc cmos_href_i_0_1 1 0 4 NJ 960 NJ 960 NJ 960 790J
+preplace netloc OV_Sensor_ML_0_rgb_o 1 4 1 1170
+preplace netloc clk_wiz_0_clk_out1 1 3 1 780
+preplace netloc rst_clk_wiz_1_100M_peripheral_aresetn 1 2 6 560 590 800 810 1130 720 1580 740 2130 730 2460
+preplace netloc clk_wiz_1_locked 1 1 1 220
+preplace netloc axi_iic_0_IIC 1 8 1 NJ
+preplace netloc axi_uartlite_0_UART 1 8 1 NJ
+preplace netloc clk_wiz_0_clk_out2 1 3 5 760 1160 1240J 1080 1560 1080 2130 1140 2460
+preplace netloc cmos_data_i_0_1 1 0 4 20J 950 NJ 950 NJ 950 NJ
+preplace netloc OV_Sensor_ML_0_vid_clk_ce 1 4 1 1190
+preplace netloc mig_7series_0_ui_clk_sync_rst 1 5 4 1560 20 NJ 20 NJ 20 2740
+preplace netloc clk_wiz_1_clk_out2 1 1 7 NJ 1090 NJ 1090 780J 1010 1160J 730 NJ 730 2070J 740 2450
+preplace netloc microblaze_0_axi_periph_M02_AXI 1 4 4 1110J 690 NJ 690 NJ 690 N
+preplace netloc microblaze_0_dlmb_1 1 6 1 2120
+preplace netloc Net 1 3 5 770 1140 1230 1090 1570 1120 NJ 1120 2480
+preplace netloc clk_wiz_1_clk_out3 1 1 6 200J 1150 NJ 1150 NJ 1150 1220 1070 1540J 890 2070J
+preplace netloc clk_wiz_0_clk_out3 1 3 5 750 1180 1260J 1120 1590J 1110 NJ 1110 2440J
+preplace netloc v_tc_0_vtiming_out 1 6 1 N
+preplace netloc axi_vdma_0_M_AXI_S2MM 1 6 1 2090
+preplace netloc microblaze_0_debug 1 5 1 N
+preplace netloc reset_1 1 0 8 20 990 210 1170 NJ 1170 NJ 1170 1250J 1100 1550J 1070 2100J 890 2440
+preplace netloc mdm_1_debug_sys_rst 1 1 5 220 380 NJ 380 NJ 380 NJ 380 1540
+levelinfo -pg 1 0 110 390 660 950 1400 1830 2290 2610 2770 -top 0 -bot 1190
+",
+}
+{
+   da_axi4_cnt: "10",
+   da_board_cnt: "13",
+   da_clkrst_cnt: "5",
+   da_mb_cnt: "1",
+}
